@@ -1,23 +1,19 @@
-int _putchar(char c);
+#include "main.h"
 
-int _isupper(int c);
+/**
+ * _isupper - checks uppercase
+ * @c: parameter
+ * Return: 0 if sucessful
+ */
 
-int _isdigit(int c);
-
-int mul(int a, int b);
-
-void print_numbers(void);
-
-void print_most_numbers(void);
-
-void more_numbers(void);
-
-void print_line(int n);
-
-void print_diagonal(int n);
-
-void print_square(int size);
-
-void print_triangle(int size);
-
-void print_number(int n);
+int _isupper(int c)
+{
+	if (c >= 65 && c < 91)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
